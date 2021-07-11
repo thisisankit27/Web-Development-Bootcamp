@@ -1,0 +1,17 @@
+
+@media print{               /*text will be red whe you print page*/
+    h1{
+        color: red;
+    }
+}
+
+h1{
+    font-size: 35px;
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    h1{
+        color: blue;
+        font-size: 60px;
+    }
+}

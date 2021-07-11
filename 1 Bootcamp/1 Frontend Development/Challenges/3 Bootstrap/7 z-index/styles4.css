@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+}
+
+.red{
+    background-color: red;
+    /*z-index: 1;                  /* initially 3 pos -> after z-index 1, psition 1(top) */
+    z-index: 1;
+}
+
+.yellow{
+    background-color: yellow;
+    top: 20px;
+    left: 20px;
+}
+.blue{
+    background-color: blue;
+    left: 40px;
+    top: 40px;
+    /* z-index: 0;                initially position-2, zindex-0 (yellow, blue, red) (mid)*/
+    /*z-index: -1;                /* initially 2 (yellow, blue, red) -> after z-index -1, goes back (bottom) and now blue yellow red*/
+}
+
+.green{
+    background-color: green;
+    top: 60px;
+    left: 60px;
+    z-index: -1;
+}

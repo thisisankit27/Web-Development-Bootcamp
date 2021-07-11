@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+h1, p{
+    color: red;
+}
+
+.container .title{          /*.container.title : won't work (combine selector dosen't wor of heirarchy)*/
+    color: blue;
+}
+
+h1.title{
+    color: pink;
+}

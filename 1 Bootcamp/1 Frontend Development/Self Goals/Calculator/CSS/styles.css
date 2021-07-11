@@ -1,0 +1,24 @@
+.inputrow{
+    position: relative;
+    margin: 10% auto 1%;
+    width: 303px;
+    text-align: center;
+}
+
+.outputrow{
+    position: relative;
+    margin: auto;
+    width: 303px;
+}
+.inputPlace{
+    width: 20px;
+}
+
+table{
+    margin: auto;
+}
+
+button{
+    height: 70px;
+    width: 70px;
+}

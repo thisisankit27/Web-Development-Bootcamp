@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    color: green;  /*Priority*/
+}
+
+.title{                    /*class: higher priority than tag*/
+    color: crimson;
+    color: yellow;  /*Priority*/
+}
+
+#heading{               /*ID: higher priority than class*/
+    color: white;
+    color: blue;  /*Priority*/        
+}

@@ -1,0 +1,24 @@
+/*body {
+  background-image: url("images/2.1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}*/
+
+html { 
+  background: url(images/2.1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2{color: #00ffff; text-align: center;}
+h4{background-color: grey; text-align: center;}
+h1{color: #adff2f;
+	background-color: black}
+
+/*img{
+	background-color: red;
+}*/
+#try{
+	color: blue ;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 130px;
+    height: 50px;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    position: relative;
+}
+.box input{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+.box span{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 0;
+    z-index: -1;
+}
+.box span::before{
+    content: "ON";
+    width: 48%;
+    height: 46px;
+    position: absolute;
+    background: #00ff00;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.4s;
+}
+.box input:checked ~ span::before{
+    background: #ff0000;
+    content: "OFF";
+    transform: translateX(103%);
+    border-radius: 0px 8px 8px 0px;
+}
